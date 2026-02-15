@@ -1,7 +1,15 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-function greet(name) {
-    return `hello ${name}`;
+let up = Math.random() > 0.5 ? '10' : '5';
+let num;
+num = false;
+let order = ['20', '40'];
+let currOrder = false;
+for (let ord of order) {
+    if (ord === '20') {
+        currOrder = true;
+        break;
+    }
 }
-console.log(greet("tejas"));
+console.log(currOrder);
 //# sourceMappingURL=index.js.map

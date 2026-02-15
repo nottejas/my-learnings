@@ -1,0 +1,61 @@
+############################
+# Maven
+############################
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+############################
+# Eclipse
+############################
+.project
+.classpath
+.settings/
+.metadata/
+.apt_generated/
+.apt_generated_tests/
+bin/
+
+############################
+# IntelliJ (in case opened later)
+############################
+.idea/
+*.iml
+
+############################
+# VS Code
+############################
+.vscode/
+
+############################
+# Logs
+############################
+*.log
+logs/
+
+############################
+# OS Files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Lombok (never commit this)
+############################
+lombok.jar
+
+############################
+# Application Secrets
+############################
+application-local.properties
+application-prod.properties
+.env
+
+############################
+# H2 DB (if ever used)
+############################
+*.mv.db
+*.trace.db
